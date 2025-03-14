@@ -20,7 +20,7 @@ function App() {
   return (
     <>
       <div>
-       <BrowserRouter>
+       <Router basename="/E-com">
          <Routes>
           <Route path = "/home" element = {<Home />}></Route>
            <Route path = "/" element = {<Login />}></Route>
@@ -36,7 +36,7 @@ function App() {
            <Route path = "/:category/:subcategory" element = {<ProductList/>}></Route>
            <Route path="/cart" element={<Cart />} />
          </Routes>
-       </BrowserRouter>
+       </Router>
       </div>
     </>
   )
