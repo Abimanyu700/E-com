@@ -13,7 +13,7 @@ import Laptop from './Navbar/Laptop';
 import Watch from './Navbar/Watch';
 import ProductList from './Components/ProductList';
 import Cart from './Components/Cart';
-import { BrowserRouter, Routes, Route } from'react-router-dom';
+import { BrowserRouter as Router, Routes, Route } from'react-router-dom';
 
 
 function App() {
