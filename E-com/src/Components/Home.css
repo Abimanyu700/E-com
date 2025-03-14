@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+.roboto-text {
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+}
+.home-page {
+  background-color: black;
+  color: white;
+  position: absolute;
+}
+
+.marquee-text marquee{
+  color: white;
+}
+
+.Dress_Ad img,
+.Bike_Ad img,
+.Phone_Ad img,
+.Foot_Ad img,
+.Electronics_Ad img {
+    width: 100%;
+    max-width: auto; 
+    height: 400px; 
+    display: block;
+    margin: 0 auto;
+    cursor: pointer;
+}
+
+.ad-section {
+    text-align: center;
+    margin-bottom: 20px;
+    position: relative;
+  }
+  
+  .mini-images {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .mini-image {
+    width: 80px;
+    height: 80px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: transform 0.3s;
+  }
+  
+  .mini-image:hover {
+    transform: scale(1.1);
+  }
+  
+  .ad-image {
+    width: 70%;
+    border-radius: 10px;
+  }
