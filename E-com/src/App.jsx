@@ -18,9 +18,9 @@ import { BrowserRouter as Router, Routes, Route } from'react-router-dom';
 
 function App() {
   return (
-    <>
+  
       <div>
-       <Router basename='/E-com'>
+       <Router>
          <Routes>
           <Route path = "/home" element = {<Home />}></Route>
            <Route path = "/" element = {<Login />}></Route>
@@ -38,7 +38,7 @@ function App() {
          </Routes>
        </Router>
       </div>
-    </>
+    
   )
 }
 
