@@ -20,7 +20,7 @@ function App() {
   return (
     <>
       <div>
-       <Router basename='E-com'>
+       <Router basename='/E-com'>
          <Routes>
           <Route path = "/home" element = {<Home />}></Route>
            <Route path = "/" element = {<Login />}></Route>
